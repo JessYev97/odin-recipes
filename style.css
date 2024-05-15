@@ -1,0 +1,14 @@
+/* style.css */
+
+* {
+    color: aqua;
+}
+
+.title{
+    color: black;
+}
+
+.text{
+    font-size: 30px;
+}
+
