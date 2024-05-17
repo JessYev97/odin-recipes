@@ -1,5 +1,9 @@
-/* Style.css*/
-*{
-    color: blue;
+/* Style.css */
+.title{
+    color: brown;
+}
+
+p{
+    font-weight: 100;
 }
 

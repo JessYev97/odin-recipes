@@ -1,14 +1,38 @@
 /* style.css */
 
 * {
-    color: aqua;
+
 }
 
 .title{
     color: black;
+    text-align: center;
 }
 
 .text{
-    font-size: 30px;
+    font-size: 20px;
+    color: black;
+}
+h3{
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+.list{
+    border: black solid 2px;
+    padding: 0px;
+    margin: 10px;
+    block-size: 100px;
+    width: 250px;
+    color: black;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    border-radius: 15px;
+    list-style: none;
+}
+img{
+position: absolute;
+bottom: 50px;
+right: 50px;
 }
 
