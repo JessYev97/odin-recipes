@@ -1,9 +1,12 @@
 /* style.css */
 
-* {
-
+.header {
+    padding: 20px;
+    text-align: center;
+    background: rgb(248, 207, 232);
+    color: white;
+    font-size: 20px;
 }
-
 .title{
     color: black;
     text-align: center;
@@ -13,22 +16,26 @@
     font-size: 20px;
     color: black;
 }
-h3{
-    margin: 10px;
-    color: black;
-    font-weight: bold;
+.linkHead {
+    padding: 5px;
+    text-align: center;
+    background: rgb(248, 207, 232); 
+    color: white; 
+    font-weight: bold; 
 }
 .list{
-    border: black solid 2px;
+    border: rgb(54, 9, 9) solid 1px;
     padding: 0px;
     margin: 10px;
-    block-size: 100px;
+    block-size: 110px;
     width: 250px;
-    color: black;
-    background-color: aquamarine;
+    color: rgb(54, 9, 9);
+    background-color: rgb(248, 207, 232);
     box-sizing: border-box;
     border-radius: 15px;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 img{
 position: absolute;
@@ -36,3 +43,7 @@ bottom: 50px;
 right: 50px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
